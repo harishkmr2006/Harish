@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Test Report</title>
+<head>
+<body>
+<h3 style="background-color:#00FFFF">Test Case Name: TC01_BOSearch_FF</h3>
+<h3 style="background-color:#00FFFF">Objective : Test cases to check on environment testrunup.</h3>
+<h3>Test Results Status---<font color = 'red'><strong>Fail (Terminated)</strong></font></h3>
+<table>
+<tr>
+<td>EXECUTION START TIME---2017:09:27_15:15:52<BR/></td>
+
+<td>---EXECUTION END TIME---2017:09:27_15:17:30<BR/></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="10%">Step</th>
+<th width="10%">Result</th>
+<th width="80%">Remarks</th>
+</tr>
+<tr><td>1</td>
+<td><font color = 'red'><strong>Fail<strong></font></td>
+<td>Expected value and  Actual value are not Matching--selectByTestData Exception:    at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at BOPO.NUnit.ParallelTests.Helpers.GenericActionDrivers.selectByTestData(IWebElement element, String testdata) in C:\selenium.netcode_qa_14_06_2017 - Excel\BOPO.NUnit.ParallelTests\BOPO.NUnit.ParallelTests\Helpers\GenericActionDrivers.cs:line 439--<img src ="C:\selenium.netcode_qa_14_06_2017 - Excel\Reports\screenshots\20170927_151707.Jpeg"</td></tr>
+<tr><td>2</td>
+<td><font color = 'green'><strong>Pass</strong> </font></td>
+<td>Actual value 'Entered the Department--1610 - Knitwear' matches expected value</td></tr>
+<tr><td>3</td>
+<td><font color = 'green'><strong>Pass</strong> </font></td>
+<td>Actual value 'Clicked on Search Successfully' matches expected value</td></tr>
+<tr><td>4</td>
+<td><font color = 'red'><strong>Fail<strong></font></td>
+<td>Expected value and  Actual value are not Matching--Exception in getArticleDetails:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at BOPO.NUnit.ParallelTests.POM_BOSearchPage.getArticleDetails() in C:\selenium.netcode_qa_14_06_2017 - Excel\BOPO.NUnit.ParallelTests\BOPO.NUnit.ParallelTests\POM\TestRunup\POM_BOSearchPage.cs:line 136--<img src ="C:\selenium.netcode_qa_14_06_2017 - Excel\Reports\screenshots\20170927_151723.Jpeg"</td></tr>
+<tr><td>5</td>
+<td><font color = 'red'><strong> Fail <strong></font></td>
+<td>Actual value 'Exception in gettableele:    at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)
+   at OpenQA.Selenium.Support.PageObjects.WebElementProxy.get_Element()
+   at OpenQA.Selenium.Support.PageObjects.WebElementProxy.Invoke(IMessage msg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at OpenQA.Selenium.IWebElement.Click()
+   at BOPO.NUnit.ParallelTests.POM_BOSearchPage.productClick() in C:\selenium.netcode_qa_14_06_2017 - Excel\BOPO.NUnit.ParallelTests\BOPO.NUnit.ParallelTests\POM\TestRunup\POM_BOSearchPage.cs:line 115' does not match expected value ''<img src ="C:\selenium.netcode_qa_14_06_2017 - Excel\Reports\screenshots\screenshot not available.Jpeg"</td></tr>
+<!-- INSERT_RESULTS -->
+</table>
+</body>
